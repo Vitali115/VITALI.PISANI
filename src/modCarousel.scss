@@ -1,0 +1,141 @@
+
+ @media screen and (max-width: 750px){
+  .mod-card{
+  h3{
+    font-size: 2em; }}
+  }
+
+  @media screen and (max-width: 1200px) and  (min-width: 769px) {
+    .mod-card{
+  
+    h3{
+      font-size: 1.2em; }}
+    }
+.mod-card{
+  object-fit: cover;
+
+  position: relative;
+  color: white;
+  font-family: inter;
+  font-weight: 700;
+  text-shadow: 1px 1px 6px black;
+
+
+a:hover{
+
+    text-decoration:none;
+ 
+}
+
+h3{
+  line-height: 140px;
+
+     
+}
+  img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: -1;
+  border-radius: 8px;
+}
+
+}
+.mod-card:hover , .ai-card:hover{
+  -webkit-transform: translateX(0) translateY(0) scale(0.99); 
+  -moz-transform: translateX(0) translateY(0) scale(0.99);
+  -o-transform: translateX(0) translateY(0) scale(0.99);
+  transform: translateX(0) translateY(0) scale(0.99);
+  text-decoration:none;
+}
+
+
+
+
+.ai-card:hover{
+  background-color: #0d0d0d;
+
+}
+.ai-card{
+
+  // background-color: rgba(251, 251, 253, 0.015);
+  // -webkit-backdrop-filter: blur(14px);
+  // backdrop-filter: blur(14px);
+  display:flex;
+  flex-direction: column;
+  height: 200px;
+  border-radius: 6px;
+  button{
+    border-radius: 7.5px;
+    width: calc(100% - 15px);
+  }
+  @media screen and (max-width: 800px){
+
+    height: 200px;
+    
+}
+
+
+.preview{
+max-height: 400px;
+border-radius: 15px;
+@media screen and (max-width: 800px){
+
+  max-height: 500px;
+  
+}
+}
+.logo{
+height: 30px;
+}
+  img{
+   background: transparent;
+    margin: auto;
+    // display: block;
+    // max-height: 5px;
+    // max-width: 190px;
+   
+  }
+}
+
+.A:hover{
+  text-decoration: none;
+}
+
+
+
+@media screen and (min-width: 1000px){
+
+    .horizGrid{
+ .A:hover{
+  text-decoration: none;
+}
+      margin: 0 0 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      .mod-card{
+        width: 300px;
+        height: 100px;
+
+    margin-right: 1px;
+  h3{
+
+filter: drop-shadow(1px, 1px 19px black);
+  }
+    img:hover{
+      opacity: 0.9;
+    }
+      }
+    }
+
+  }
+.ai-card{
+  .icon-animated{
+    background-color: transparent!important;
+  }
+}
